@@ -1,2 +1,5 @@
-markdown: rdiscount
-pygments: true
+exclude: ['vendor', 'README.md', 'Gemfile', 'Gemfile.lock']
+timezone: Asia/Shanghai
+
+markdown: kramdown
+highlighter: rouge
